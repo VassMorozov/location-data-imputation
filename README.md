@@ -1,4 +1,4 @@
-# location_data_imputation
+# Imputation of Missing Values based on Geographically Closest Data Points
 Considering a Pandas dataframe with latitude and longitude columns,  this class imputes missing data based on nearest location using the haversine distance. All columns for the dataframe are considered, however only ones where a missing value is present are imputed. 
 
 The example below illustrates how this is performed. The graphic contains grey data points which contain missing values for the 'Price' column. The value is filled with those of the location closest. 
